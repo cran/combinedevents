@@ -10,6 +10,8 @@ status](https://www.r-pkg.org/badges/version/combinedevents)](https://CRAN.R-pro
 [![R build
 status](https://github.com/Katie-Frank/combinedevents/workflows/R-CMD-check/badge.svg)](https://github.com/Katie-Frank/combinedevents/actions)
 [![codecov](https://codecov.io/gh/Katie-Frank/combinedevents/branch/master/graph/badge.svg)](https://codecov.io/gh/Katie-Frank/combinedevents)
+[![Total
+Downloads](https://cranlogs.r-pkg.org/badges/grand-total/combinedevents)](https://cran.r-project.org/package=combinedevents)
 
 <!-- badges: end -->
 
@@ -18,43 +20,34 @@ status](https://github.com/Katie-Frank/combinedevents/workflows/R-CMD-check/badg
 **combinedevents** is an R package to calculate scores and marks for
 track and field combined events competitions. The functions included in
 this package are based on the scoring tables for combined events created
-by the International Association of Athletics Federation (2001). These
-scoring tables are available for download as a PDF:
-
-  - Go to the [Technical Information Section of the World Athletics
-    Website](https://www.worldathletics.org/about-iaaf/documents/technical-information)
-  - Select *Scoring Tables*
-  - Download *IAAF Scoring Tables for Combined Events*
+by the International Association of Athletics Federation (2001).
 
 ## Installation
 
-**combinedevents** is not yet released on
-[CRAN](https://CRAN.R-project.org) but should be soon as I submitted it
-to CRAN on 9/17. In the meantime, you can install the development
-version from [GitHub](https://github.com/) with:
+Version 0.1.1 is on [CRAN](https://CRAN.R-project.org) and can be
+installed with:
+
+``` r
+install.packages("combinedevents")
+```
+
+The development version of **combinedevents** can be installed from
+[GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
 devtools::install_github("Katie-Frank/combinedevents")
 ```
 
-<!-- You can install the released version of **combinedevents** from [CRAN](https://CRAN.R-project.org) with: -->
-
-<!-- ``` r -->
-
-<!-- install.packages("combinedevents") -->
-
-<!-- ``` -->
-
 ## Usage
 
 The two main functions in the package are
 
-  - `scores()` calculates scores
-  - `marks()` calculates marks
+-   `scores()` calculates scores
+-   `marks()` calculates marks
 
-Below are two quick examples. To learn more about **combinedevents**,
-see the package documentation.
+Below are a couple of quick examples. To learn more about
+**combinedevents**, see the package documentation.
 
 ``` r
 library(combinedevents)
